@@ -1,8 +1,8 @@
+# 개인정보
+secret.txt
 
-
-
-# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,python
+# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,python,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,python,visualstudiocode
 
 ### macOS ###
 # General
@@ -173,6 +173,22 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -199,4 +215,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,windows,python
+# End of https://www.toptal.com/developers/gitignore/api/windows,macos,python,visualstudiocode
